@@ -99,7 +99,7 @@ while(!Button_State); //
 
 Button_State = digitalRead(Button_Low_Volume); //
 if(!Button_State)
-Serial.print("Low_Volume"); //
+Serial.print("Low Volume"); //
 do
 {
   //
@@ -108,5 +108,5 @@ do
   while(!Button_State); //
 
 
-delay(200);
+delay(100);
 }
